@@ -108,7 +108,7 @@ src/test/resources/
 
 
 
-git clone https://github.com/YOUR\_USERNAME/selenium-cucumber-labcorp-automation.git
+git clone https://github.com/imakchaubey/selenium-cucumber-labcorp-automation.git
 
 cd selenium-cucumber-labcorp-automation
 

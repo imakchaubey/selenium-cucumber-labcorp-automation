@@ -1,6 +1,6 @@
 Feature: Validate Labcorp Job Listing and Application Flow
 
-  Scenario: Navigate to a job listing, validate details, and apply
+  Scenario: Navigate to a job listing, validate details, and handle application
     Given I open Chrome and navigate to "https://www.labcorp.com"
     When I find and click the "Careers" link
     And I search for "QA Test Automation Developer" position
@@ -16,5 +16,4 @@ Feature: Validate Labcorp Job Listing and Application Flow
     And the application page job location matches "India"
     And the application page job ID is present
     And the application page confirms a requirement as "5+ years of experience in QA automation development and scripting."
-    
-
+    When I return to the job search page
